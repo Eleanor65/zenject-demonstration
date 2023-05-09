@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace ZenjectDemonstration
 {
-    public class Greeter
+    public class Greeter : IGreeter
     {
         public void Greet()
         {
