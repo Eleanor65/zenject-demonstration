@@ -7,7 +7,7 @@ namespace ZenjectDemonstration
         public override void InstallBindings()
         {
             Container.Bind<Application>().AsSingle().NonLazy();
-            Container.Bind<Greeter>().AsSingle();
+            Container.Bind<IGreeter>().To<Greeter>().AsSingle();
         }
     }
 }

@@ -2,7 +2,7 @@ namespace ZenjectDemonstration
 {
     public class Application
     {
-        public Application(Greeter greeter)
+        public Application(IGreeter greeter)
         {
             greeter.Greet();
         }
